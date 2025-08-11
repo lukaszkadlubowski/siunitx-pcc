@@ -118,7 +118,9 @@ export const unitSymbol = new Map<string,string>([
 	['minute', 'min'],
 	['arcsecond', "''"],
 	['neper', 'Np'],
-	['tonne', 't']
+	['tonne', 't'],
+
+	['percent', '\\%'],
 ]);
 export const unitNameLookup = new TwoWayMap<string,string>(unitSymbol);
 
@@ -248,5 +250,7 @@ export const unitSymbolsWithShortcuts = new Map<string, string>([
 	['bit', 'b'],
 
 	['byte', 'B'],
+
+	['%', '\\%'],
 ]);
 
